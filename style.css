@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hello{
+    background-image:url(moon.jpg); 
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-position:center ;
+} 
+h1{
+    color:brown; 
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:white;
+} 
+.new{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-right: 8% ;
+} 
+ul li{
+    display: inline-block;
+    padding:10px 30px;
+
+}
+ul li a{
+    color:pink;
+    font-size:15px ; 
+    text-decoration:none;
+} 
+ul li a:hover{
+    color:green;
+} 
+.btn{
+    color:white;
+    background-color: green;
+    text-decoration: none;
+   border:2px solid transparent; 
+   padding:15px;
+   font-weight: bold;
+    border-radius: 30px;
+   transition: transform .4s;
+}
+.btn:hover{
+    transform:scale(2,1);
+} 
+#b{
+    color:brown;
+    left:8%; 
+    letter-spacing: 1px;  
+    margin-bottom:30px ; 
+    font-weight: bold;
+ }
+#r{
+    color:palevioletred;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+    left:8%; 
+margin-bottom: 20px;
+}
+.con{
+    position:absolute;
+    top:50%;
+    left:40%; 
+    
+}
+.news form{
+    width:400px;
+    max-width: 100%;
+    position: relative;
+}
+.news form input:first-child{
+    width:100%;
+    display:inline-block;
+    padding:14px 13px 14px 15px;
+    border:2px solid green;
+    border-radius:30px ;
+} 
+.news form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border:none;
+    padding:10px 30px;
+    color:blue;
+    background-color:green;
+    top:6px;
+    right:6px;
+    border-radius: 30px;
+}
